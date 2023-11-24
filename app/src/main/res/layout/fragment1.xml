@@ -15,10 +15,10 @@
         android:text="@string/hello_fragment1" />
 
     <Button
-        android:id="@+id/f1IrAmarillo"
+        android:id="@+id/f1IrMorado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir a fragment amarillo" />
+        android:text="Ir a fragment morado" />
 
     <Button
         android:id="@+id/buttonMultiplica"

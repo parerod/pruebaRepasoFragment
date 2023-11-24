@@ -1,6 +1,5 @@
 package com.example.pruebarepasofragment.ui
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -14,19 +13,19 @@ class Fragment2 : Fragment() {
         fun newInstance() = Fragment2()
     }
 
-    private lateinit var viewModel: Fragment2ViewModel
+    //private lateinit var viewModel: Fragment2ViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_fragment2, container, false)
+        return inflater.inflate(R.layout.fragment2, container, false)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
+    /*override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(Fragment2ViewModel::class.java)
         // TODO: Use the ViewModel
-    }
+    }*/
 
 }

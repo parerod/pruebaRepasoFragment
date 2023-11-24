@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">pruebaRepasoFragment</string>
+    <string name="hello_fragment1">Estoy en el fragment 1</string>
 </resources>
