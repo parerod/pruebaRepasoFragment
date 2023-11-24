@@ -15,10 +15,11 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="com.example.pruebarepasofragment.ui.Fragment1"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="679dp"
-        tools:layout="@layout/fragment1" />
+        app:navGraph="@navigation/navigation"
+        app:defaultNavHost="true" />
 
 
 </LinearLayout>
